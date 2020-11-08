@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>js_hof</title>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    JavaScript higher order functions example
+    <div>
+      <p>
+        Increment (5) = <span id="increment"></span><br>
+        Double (5) = <span id="double"></span>
+      </p>
+    </div>
+    <script>
+      document.getElementById('increment').innerHTML = incrementWithLogging(5);
+      document.getElementById('double').innerHTML = doubleWithLogging(5);
+    </script>
+  </body>
+</html>
